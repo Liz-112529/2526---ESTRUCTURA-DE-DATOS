@@ -1,8 +1,8 @@
 ﻿Console.WriteLine("ESTRUCTURA DE DATOS - UEA");
 Console.WriteLine();
 
-// Crear un rectángulo con base 5 y altura 10.5
-Rectangulo rectangulo = new Rectangulo(5, 10.5);
+// Crear un rectángulo con base 5 y altura 12.5
+Rectangulo rectangulo = new Rectangulo(7, 12.5);
 
 // Encabezado de tabla
 Console.WriteLine("Rectangulo       | Valor");
@@ -16,8 +16,8 @@ Console.WriteLine("Perímetro        | " + rectangulo.CalcularPerimetro());
 
 Console.WriteLine();
 
-// Crear un circulo con radio 5
-Circulo circulo = new Circulo(5);
+// Crear un circulo con radio 6
+Circulo circulo = new Circulo(6);
 
 // Encabezado de tabla
 Console.WriteLine("Circulo          | Valor");

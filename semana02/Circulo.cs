@@ -1,23 +1,23 @@
-// clase
-public class Circulo: Figura
+public class Circulo : Figura
 {
-    // atributos
-    public double Radio { get;  set; }
+    // atributo
+    public double Radio { get; set; }
 
     // constructor
-    public Circulo(double Radio)
+    public Circulo(double radio)
     {
-        this.Radio = Radio;
+        this.Radio = radio;
     }
 
-    // metodos
+    // método para calcular el área
     public override double CalcularArea()
     {
-        return Math.Round(Math.PI * this.Radio  * this.Radio,2);
+        return Math.Round(Math.PI * this.Radio * this.Radio, 2);
     }
 
+    // método para calcular el perímetro (circunferencia)
     public override double CalcularPerimetro()
     {
-        return 0;
+        return Math.Round(2 * Math.PI * this.Radio, 2);
     }
 }
