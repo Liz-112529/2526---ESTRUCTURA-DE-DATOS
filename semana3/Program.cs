@@ -1,20 +1,27 @@
-﻿using System;  
-// Importa la biblioteca básica de C# que permite usar la consola y funciones esenciales.
-
-// ---------------------------
+﻿// ---------------------------
 // Clase Estudiante
 // ---------------------------
 // Esta clase modela los datos de un estudiante y su comportamiento.
 class Estudiante
 {
     // Propiedades del estudiante con métodos automáticos de lectura/escritura.
-    public int ID { get; set; }              
-    public string Nombres { get; set; }      
-    public string Apellidos { get; set; }    
-    public string Direccion { get; set; }    
+    private int ID { get; set; }
+    private string Nombres { get; set; }
+    private string Apellidos { get; set; }
+    public string Direccion { get; set; }
 
     // Array que almacenará los tres números de teléfono.
-    public string[] Telefonos { get; set; }  
+    private string[] Telefonos { get; set; }
+
+    public Estudiante(int ID, string Nombres, string Apellidos, string Direccion, string[] Telefonos)
+    {
+        this.ID = ID;
+        this.Nombres = Nombres;
+        this.Apellidos = Apellidos;
+        this.Direccion = Direccion;
+        this.Telefonos = Telefonos;
+    }
+
 
     // Método que muestra en pantalla todos los datos del estudiante.
     public void MostrarDatos()
@@ -23,16 +30,16 @@ class Estudiante
         Console.WriteLine("----- REGISTRO DEL ESTUDIANTE -----");
 
         // Se imprimen los valores almacenados en las propiedades del objeto.
-        Console.WriteLine($"ID: {ID}");
-        Console.WriteLine($"Nombres: {Nombres}");
-        Console.WriteLine($"Apellidos: {Apellidos}");
-        Console.WriteLine($"Dirección: {Direccion}");
+        Console.WriteLine($"ID: {this.ID}");
+        Console.WriteLine($"Nombres: {this.Nombres}");
+        Console.WriteLine($"Apellidos: {this.Apellidos}");
+        Console.WriteLine($"Dirección: {this.Direccion}");
         Console.WriteLine("Teléfonos:");
 
         // Se recorre el array de teléfonos para imprimirlos uno por uno.
-        for (int i = 0; i < Telefonos.Length; i++)
+        for (int i = 0; i < this.Telefonos.Length; i++)
         {
-            Console.WriteLine($"  Teléfono {i + 1}: {Telefonos[i]}");
+            Console.WriteLine($"  Teléfono {i + 1}: {this.Telefonos[i]}");
         }
     }
 }
@@ -71,14 +78,7 @@ class Program
         }
 
         // Se crea un objeto Estudiante con los valores recogidos.
-        Estudiante estudiante = new Estudiante
-        {
-            ID = id,
-            Nombres = nombres,
-            Apellidos = apellidos,
-            Direccion = direccion,
-            Telefonos = telefonos
-        };
+        Estudiante estudiante = new Estudiante(id, nombres, apellidos, direccion, telefonos);
 
         // Se llama al método para mostrar los datos del estudiante.
         estudiante.MostrarDatos();
