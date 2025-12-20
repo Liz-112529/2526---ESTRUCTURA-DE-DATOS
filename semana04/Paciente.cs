@@ -15,6 +15,6 @@ public class Paciente
 
     public void Mostrar()
     {
-        Console.WriteLine($"Paciente        | {Nombre,-20}| {Cedula,-10}| {TurnoAsignado.Dia} {TurnoAsignado.Hora}");
+        Console.WriteLine($"{Nombre,-22}| {Cedula,-10}| {TurnoAsignado.Dia,-10} {TurnoAsignado.Hora,-6}| {TurnoAsignado.Especialidad,-18}| {TurnoAsignado.Observacion}");
     }
 }

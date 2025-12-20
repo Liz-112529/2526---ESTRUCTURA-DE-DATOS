@@ -2,24 +2,81 @@
 
 class Program
 {
-    static void Main(string[] args)
+    static void Main()
     {
-        AgendaTurnos agenda = new AgendaTurnos(5);
+        AgendaTurnos agenda = new AgendaTurnos(20);
 
-        Turno t1 = new Turno("Lunes", "07:00", "Ginecología", "Control");
-        Turno t2 = new Turno("Martes", "13:00", "Medicina General", "Primera vez");
-        Turno t3 = new Turno("Viernes", "09:00", "Psicología", "Control");
+        int opcion;
+        do
+        {
+            Console.WriteLine("\n===== MENÚ AGENDA DE TURNOS =====");
+            Console.WriteLine("1. Ingresar paciente (Agendar turno)");
+            Console.WriteLine("2. Listar pacientes");
+            Console.WriteLine("3. Ver disponibilidad (Libre/Ocupado)");
+            Console.WriteLine("4. Buscar paciente por cédula");
+            Console.WriteLine("5. Eliminar cita");
+            Console.WriteLine("0. Salir");
+            Console.Write("Seleccione una opción: ");
 
-        Paciente p1 = new Paciente("Magdalena Cantos", "0929087651", t1);
-        Paciente p2 = new Paciente("Carlos López", "0951256789", t2);
-        Paciente p3 = new Paciente("Nathaly Méndez", "0951213005", t3);
+            if (!int.TryParse(Console.ReadLine(), out opcion))
+            {
+                Console.WriteLine("Opción inválida.");
+                continue;
+            }
 
-        agenda.AgregarTurno(p1);
-        agenda.AgregarTurno(p2);
-        agenda.AgregarTurno(p3);
+            switch (opcion)
+            {
+                case 1:
+                    Console.Write("Nombre: ");
+                    string nombre = Console.ReadLine() ?? "";
 
-        agenda.MostrarTurnos();
+                    Console.Write("Cédula: ");
+                    string cedula = Console.ReadLine() ?? "";
 
-        Console.ReadKey();
+                    Console.Write("Día (Lunes/Martes/Miercoles/Jueves/Viernes): ");
+                    string dia = Console.ReadLine() ?? "";
+
+                    Console.Write("Hora (07:00/09:00/11:00/13:00/15:00): ");
+                    string hora = Console.ReadLine() ?? "";
+
+                    Console.Write("Especialidad: ");
+                    string esp = Console.ReadLine() ?? "";
+
+                    Console.Write("Observación: ");
+                    string obs = Console.ReadLine() ?? "";
+
+                    agenda.AgregarTurno(nombre.Trim(), cedula.Trim(), dia.Trim(), hora.Trim(), esp.Trim(), obs.Trim());
+                    break;
+
+                case 2:
+                    agenda.ListarPacientes();
+                    break;
+
+                case 3:
+                    agenda.MostrarDisponibilidad();
+                    break;
+
+                case 4:
+                    Console.Write("Ingrese cédula a buscar: ");
+                    string buscarCedula = Console.ReadLine() ?? "";
+                    agenda.BuscarPorCedula(buscarCedula.Trim());
+                    break;
+
+                case 5:
+                   Console.Write("Ingrese la cédula del paciente a eliminar: ");
+                   string cedulaEliminar = Console.ReadLine() ?? "";
+                   agenda.EliminarCita(cedulaEliminar.Trim());
+                   break;
+
+                case 0:
+                    Console.WriteLine("Saliendo...");
+                    break;
+
+                default:
+                    Console.WriteLine("Opción no válida.");
+                    break;
+            }
+
+        } while (opcion != 0);
     }
 }
