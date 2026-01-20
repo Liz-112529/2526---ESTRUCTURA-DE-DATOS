@@ -47,7 +47,7 @@ namespace EjerciciosPilas
             } while (opcion != 3);
         }
 
-        // ================== OPCIÓN 1 ==================
+        // ================== EJERCICIO 1 ==================
         static void EjecutarParentesisBalanceados()
         {
             Console.Clear();
@@ -93,7 +93,7 @@ namespace EjerciciosPilas
             return false;
         }
 
-        // ================== OPCIÓN 2 ==================
+        // ================== EJERCICIO 2 ==================
         static void EjecutarTorresHanoi()
         {
             Console.Clear();
