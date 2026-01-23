@@ -1,0 +1,15 @@
+C:\Users\USER\OneDrive\Escritorio\2526 - ESTRUCTURA DE DATOS\practico2\bin\Debug\net10.0\practico2.exe
+C:\Users\USER\OneDrive\Escritorio\2526 - ESTRUCTURA DE DATOS\practico2\bin\Debug\net10.0\practico2.deps.json
+C:\Users\USER\OneDrive\Escritorio\2526 - ESTRUCTURA DE DATOS\practico2\bin\Debug\net10.0\practico2.runtimeconfig.json
+C:\Users\USER\OneDrive\Escritorio\2526 - ESTRUCTURA DE DATOS\practico2\bin\Debug\net10.0\practico2.dll
+C:\Users\USER\OneDrive\Escritorio\2526 - ESTRUCTURA DE DATOS\practico2\bin\Debug\net10.0\practico2.pdb
+C:\Users\USER\OneDrive\Escritorio\2526 - ESTRUCTURA DE DATOS\practico2\obj\Debug\net10.0\practico2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\OneDrive\Escritorio\2526 - ESTRUCTURA DE DATOS\practico2\obj\Debug\net10.0\practico2.AssemblyInfoInputs.cache
+C:\Users\USER\OneDrive\Escritorio\2526 - ESTRUCTURA DE DATOS\practico2\obj\Debug\net10.0\practico2.AssemblyInfo.cs
+C:\Users\USER\OneDrive\Escritorio\2526 - ESTRUCTURA DE DATOS\practico2\obj\Debug\net10.0\practico2.csproj.CoreCompileInputs.cache
+C:\Users\USER\OneDrive\Escritorio\2526 - ESTRUCTURA DE DATOS\practico2\obj\Debug\net10.0\practico2.sourcelink.json
+C:\Users\USER\OneDrive\Escritorio\2526 - ESTRUCTURA DE DATOS\practico2\obj\Debug\net10.0\practico2.dll
+C:\Users\USER\OneDrive\Escritorio\2526 - ESTRUCTURA DE DATOS\practico2\obj\Debug\net10.0\refint\practico2.dll
+C:\Users\USER\OneDrive\Escritorio\2526 - ESTRUCTURA DE DATOS\practico2\obj\Debug\net10.0\practico2.pdb
+C:\Users\USER\OneDrive\Escritorio\2526 - ESTRUCTURA DE DATOS\practico2\obj\Debug\net10.0\practico2.genruntimeconfig.cache
+C:\Users\USER\OneDrive\Escritorio\2526 - ESTRUCTURA DE DATOS\practico2\obj\Debug\net10.0\ref\practico2.dll
