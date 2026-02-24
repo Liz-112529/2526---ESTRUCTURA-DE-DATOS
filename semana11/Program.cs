@@ -13,22 +13,12 @@ class Program
             { "año", "Year" },
             { "camino", "Way" },
             { "día", "Day" },
-            { "cosa", "Thing" },
             { "hombre", "Man" },
-            { "mundo", "World" },
             { "vida", "Life" },
-            { "mano", "Hand" },
-            { "parte", "Part" },
-            { "niño", "Child" },
-            { "ojo", "Eye" },
             { "mujer", "Woman" },
             { "lugar", "Place" },
             { "trabajo", "Work" },
             { "semana", "Week" },
-            { "caso", "Case" },
-            { "punto", "Point" },
-            { "gobierno", "Government" },
-            { "empresa", "Company" }
         };
 
         while (true)
@@ -55,7 +45,7 @@ class Program
 
                 case "0":
                     // Salir
-                    Console.WriteLine("¡Hasta luego!");
+                    Console.WriteLine("¡Buen trabajo Liz :)!");
                     return;
 
                 default:
