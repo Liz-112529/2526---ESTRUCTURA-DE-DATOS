@@ -1,0 +1,15 @@
+C:\Users\USER\OneDrive\Escritorio\2526 - ESTRUCTURA DE DATOS\practico3\bin\Debug\net10.0\practico3.exe
+C:\Users\USER\OneDrive\Escritorio\2526 - ESTRUCTURA DE DATOS\practico3\bin\Debug\net10.0\practico3.deps.json
+C:\Users\USER\OneDrive\Escritorio\2526 - ESTRUCTURA DE DATOS\practico3\bin\Debug\net10.0\practico3.runtimeconfig.json
+C:\Users\USER\OneDrive\Escritorio\2526 - ESTRUCTURA DE DATOS\practico3\bin\Debug\net10.0\practico3.dll
+C:\Users\USER\OneDrive\Escritorio\2526 - ESTRUCTURA DE DATOS\practico3\bin\Debug\net10.0\practico3.pdb
+C:\Users\USER\OneDrive\Escritorio\2526 - ESTRUCTURA DE DATOS\practico3\obj\Debug\net10.0\practico3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\OneDrive\Escritorio\2526 - ESTRUCTURA DE DATOS\practico3\obj\Debug\net10.0\practico3.AssemblyInfoInputs.cache
+C:\Users\USER\OneDrive\Escritorio\2526 - ESTRUCTURA DE DATOS\practico3\obj\Debug\net10.0\practico3.AssemblyInfo.cs
+C:\Users\USER\OneDrive\Escritorio\2526 - ESTRUCTURA DE DATOS\practico3\obj\Debug\net10.0\practico3.csproj.CoreCompileInputs.cache
+C:\Users\USER\OneDrive\Escritorio\2526 - ESTRUCTURA DE DATOS\practico3\obj\Debug\net10.0\practico3.sourcelink.json
+C:\Users\USER\OneDrive\Escritorio\2526 - ESTRUCTURA DE DATOS\practico3\obj\Debug\net10.0\practico3.dll
+C:\Users\USER\OneDrive\Escritorio\2526 - ESTRUCTURA DE DATOS\practico3\obj\Debug\net10.0\refint\practico3.dll
+C:\Users\USER\OneDrive\Escritorio\2526 - ESTRUCTURA DE DATOS\practico3\obj\Debug\net10.0\practico3.pdb
+C:\Users\USER\OneDrive\Escritorio\2526 - ESTRUCTURA DE DATOS\practico3\obj\Debug\net10.0\practico3.genruntimeconfig.cache
+C:\Users\USER\OneDrive\Escritorio\2526 - ESTRUCTURA DE DATOS\practico3\obj\Debug\net10.0\ref\practico3.dll
