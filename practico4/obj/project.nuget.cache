@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "TxjLeB+WBTw=",
+  "success": true,
+  "projectFilePath": "D:\\2526 - ESTRUCTURA DE DATOS\\practico4\\practico4.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\USER\\.nuget\\packages\\microsoft.win32.systemevents\\10.0.5\\microsoft.win32.systemevents.10.0.5.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\system.drawing.common\\10.0.5\\system.drawing.common.10.0.5.nupkg.sha512"
+  ],
+  "logs": []
+}
